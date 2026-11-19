@@ -1,0 +1,40 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments & package caches
+.venv/
+venv/
+.uv/
+*.egg-info/
+dist/
+build/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+*.local.*
+
+# Personal notes, drafts & scratch files
+notes/
+drafts/
+scratch/
+todo.local.md
+*.tmp
+*.bak
+*.log
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
